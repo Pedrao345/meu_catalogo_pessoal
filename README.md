@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# Meu Catálogo Pessoal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um aplicativo React Native para exibir um catálogo pessoal de filmes, onde cada filme é apresentado como um card com imagem de fundo, título, subtítulo e ano. O layout é responsivo, adaptando-se automaticamente para celulares, tablets e web.
 
-## Get started
+## Índice
+[Funcionalidades](#funcionalidades)
+[Estrutura dos Dados](#estrutura-dos-dados)
+[Como rodar o projeto](#como-rodar-o-projeto)
+[Estrutura dos Arquivos](#estrutura-dos-arquivos)
+[Personalização](#personalizacao)
 
-1. Install dependencies
+## Funcionalidades
 
+- Lista de filmes em formato de cards
+- Imagem de fundo em cada card
+- Layout responsivo (ajusta quantidade de colunas conforme o tamanho da tela)
+- Visual moderno e agradável
+
+## Estrutura dos Dados
+
+O arquivo `catalogo.json` deve estar na raiz do projeto e conter um array de objetos com a seguinte estrutura:
+
+```json
+[
+  {
+    "id": 1,
+    "titulo": "Nome do Filme",
+    "subtitulo": "Descrição ou gênero",
+    "ano": 2023,
+    "imagem": "https://link-da-imagem.jpg"
+  }
+]
+```
+
+## Como rodar o projeto
+
+1. **Instale as dependências:**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+2. **Execute o projeto:**
    ```bash
    npx expo start
    ```
+3. **Abra no seu dispositivo ou emulador** usando o QR Code ou escolha um simulador no Expo Go.
 
-In the output, you'll find options to open the app in a
+## Estrutura dos Arquivos
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- `components/CatalogoScreen.tsx`: Tela principal do catálogo de filmes.
+- `catalogo.json`: Arquivo com os dados dos filmes.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Personalização
 
-## Get a fresh project
+- Para adicionar ou remover filmes, edite o arquivo `catalogo.json`.
+- Para alterar o visual dos cards, edite os estilos em `CatalogoScreen.tsx`.
 
-When you're ready, run:
+## Tecnologias Utilizadas
 
-```bash
-npm run reset-project
-```
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
