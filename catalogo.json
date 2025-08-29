@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "titulo": "O Exterminador do Futuro 2: O Julgamento Final",
+    "subtitulo": "Diretor: James Cameron",
+    "ano": 1991,
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/85/Terminator2poster.jpg/250px-Terminator2poster.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Ilha dos cachorros",
+    "subtitulo": "Diretor: Wes Anderson",
+    "ano": 2018,
+    "imagem": "https://media.fstatic.com/IFXxPItvka25rVQXj63PC92iw8I=/322x478/smart/filters:format(webp)/media/movies/covers/2017/12/20170921-isle-poster-641x1000.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Vingadores: Guerra Infinita",
+    "subtitulo": "Diretor: Anthony e Joe Russo",
+    "ano": 2018,
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Batman: O Cavaleiro das Trevas",
+    "subtitulo": "Diretor: Christopher Nolan",
+    "ano": 2008,
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/d/d1/The_Dark_Knight.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Thor: Ragnarok",
+    "subtitulo": "Diretor: Taika Waititi",
+    "ano": 2017,
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7d/Thor_Ragnarok_poster.jpg/250px-Thor_Ragnarok_poster.jpg"
+  }
+]
